@@ -1,0 +1,119 @@
+[
+  {
+    "datacenter_name": "BO",
+    "domain": "ops.ceph.ssb.local",
+    "dns": "AD",
+    "gateway": "100.60.40.254",
+    "os-version": "focal",
+    "ceph-version": "pacific",
+    "ceph-cluster-user": "ceph-admin",
+    "ceph-cluster-pass": "C3ph@dm1n",
+    "rgw_access_key": "@CC3$$K3Y",
+    "rgw_secret_key": "$3CCR3TK3Y",
+    "osd_disk": ["sdc", "sdb", "sda"],
+    "nodes": [
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.108",
+        "hostname": "admin",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "admin",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.101",
+        "hostname": "mon01",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "mon",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.102",
+        "hostname": "mon02",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "mon",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.103",
+        "hostname": "mon03",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "mon",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.104",
+        "hostname": "rgw01",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "rgw",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.105",
+        "hostname": "osd01",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "osd",
+        "osd_disk": "sdb",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.106",
+        "hostname": "osd02",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "osd",
+        "osd_disk": "sdb",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      },
+      {
+        "ssh_keyfile": "./private_key",
+        "LogLevel": "INFO",
+        "ip_address": "100.60.40.107",
+        "hostname": "osd03",
+        "ssh_username": "ubuntu",
+        "ssh_password": "P@ssw0rd",
+        "ssh_port": "22",
+        "Server": "osd",
+        "osd_disk": "sdb",
+        "UI": true,
+        "ethernet_interface_name": "ens160"
+      }
+    ],
+    "datacenter_default_dns_resolvers": [
+      "192.168.192.1"
+    ]
+  }
+]
