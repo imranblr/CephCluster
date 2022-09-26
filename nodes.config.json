@@ -1,7 +1,7 @@
 [
   {
     "datacenter_name": "BO",
-    "domain": "ops.ceph.ssb.local",
+    "domain": "ops.ceph.domain.local",
     "dns": "AD",
     "gateway": "100.60.40.254",
     "os-version": "focal",

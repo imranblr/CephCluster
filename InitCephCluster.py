@@ -31,9 +31,9 @@ network:
       gateway4: @@@GATEWAY@@@
       nameservers:
         search:
-        - ceph.ops.ssb.local
+        - ceph.ops.domain.local
         - green.org
-        - ssb.local
+        - domain.local
         addresses:
         - 100.50.50.1
         - 100.60.50.1
